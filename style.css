@@ -3,10 +3,73 @@ body{
   height: 2000px;
 }
 
-.page-1{
-background-color: #525252;
-height: 829px;
-width: 100%;
+.nav-bar{
+  width:100%;
+  height:40px;
+}
+#itm1{
+	width:25%;
+	height:40px;
+	float:right;
+	background-color:#424242;
+  text-align:center;
+  color:white;
+  transition-duration: 222ms;
+  font-size:20px;
+}
+#itm2{
+	width:25%;
+	height:40px;
+	float:right;
+	background-color:#424242;
+  text-align:center;
+  color:white;
+  font-size:20px;
+  transition-duration: 222ms;
+}
+#itm3{
+  width:25%;
+  height:40px;
+  float:right;
+  background-color:#424242;
+  text-align:center;
+  color:white;
+  font-size:20px;
+  transition-duration: 222ms;
+}
+#itm0{
+  width:25%;
+  height:40px;
+  float:right;
+  background-color:#424242;
+  text-align:center;
+  color:white;
+  font-size:20px;
+  transition-duration: 222ms;
+}
+.btn a,
+#itm3 a,
+#itm2 a,
+#itm1 a,
+#itm0 a{
+  color: inherit;
+  text-decoration: none;
+}
+#itm1:hover{
+  background-color:#D8D8D8;
+  color:#424242;
+}
+#itm2:hover{
+  background-color:#D8D8D8;
+  color:#424242;
+}
+#itm3:hover{
+  background-color:#D8D8D8;
+  color:#424242;
+}
+#itm0:hover{
+  background-color:#D8D8D8;
+  color:#424242;
 }
 
 .top-text{
